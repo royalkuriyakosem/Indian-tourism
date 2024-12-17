@@ -1,0 +1,18 @@
+.navbar-nav .nav-link {
+    font-size: 1.5rem; /* Adjust the size as needed */
+}
+.navbar-brand {
+    font-size: 2.0rem; /* Increase the brand text size */
+}
+.carousel-item img{
+    background-size: cover;
+}
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
